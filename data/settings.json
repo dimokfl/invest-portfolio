@@ -1,0 +1,191 @@
+{
+  "alor_token": "",
+  "enable_moex": true,
+  "enable_spbex": true,
+  "api_timeout_sec": 10,
+  "api_cache_ttl_min": 60,
+  "save_api_cache": true,
+  "prefer_manual_override": true,
+  "tax_rate": 0.13,
+  "iis_tax_free": true,
+  "auto_refresh_on_startup": false,
+  "auto_refresh_interval_min": 0,
+  "auto_archive_on_zero": true,
+  "show_archived_by_default": false,
+  "archived_opacity": 0.5,
+  "theme": "dark",
+  "last_used_account_id": 2,
+  "currency_symbol": "₽",
+  "date_format": "dd.MM.yyyy",
+  "color_positive": "#10B981",
+  "color_negative": "#EF4444",
+  "font_family": "Segoe UI",
+  "font_sidebar_size": 14,
+  "font_value_size": 12,
+  "font_result_size": 14,
+  "font_topbar_size": 14,
+  "font_button_size": 13,
+  "font_header_size": 13,
+  "font_info_size": 14,
+  "floater_distinct_font": true,
+  "show_row_numbers_with_zeros": true,
+  "auto_column_width": false,
+  "column_widths": {
+    "bonds_main": {
+      "Дата погашения": 0,
+      "Цена тек.": 0,
+      "Сумма текущая": 0,
+      "Δ ₽": 0,
+      "Δ %": 0,
+      "Источник": 0,
+      "Тикер": 160,
+      "Аморт.": 125,
+      "Оферта": 127,
+      "Купон тип": 85,
+      "Наименование": 303,
+      "Дата выпуска": 104,
+      "Осталось лет": 104,
+      "Счёт": 0,
+      "Тип": 72,
+      "Рейтинг": 82,
+      "Валюта": 72,
+      "Купон ₽": 93,
+      "Купон %": 110,
+      "Цена ср.": 102,
+      "Сумма закупки": 125,
+      "Доля": 80,
+      "Рег.номер ▲": 95
+    },
+    "stocks_main": {
+      "Источник": 0,
+      "Наименование": 286,
+      "Доля": 93,
+      "Цена тек.": 107,
+      "Δ %": 96,
+      "Дивиденды": 104,
+      "Тикер": 100,
+      "Цена ср.": 100,
+      "Сумма закупки": 139,
+      "Сумма текущая": 126,
+      "Δ ₽": 112,
+      "Остаток": 76,
+      "Результат": 132
+    },
+    "bonds_ops": {
+      "Сумма": 125
+    },
+    "stocks_history": {
+      "Сумма": 467
+    },
+    "options_ops": {
+      "Сумма": 467
+    },
+    "options_main": {
+      "№": 52,
+      "Базовый актив": 385
+    },
+    "futures_ops": {
+      "Сумма": 467
+    },
+    "futures_main": {
+      "Базовый актив": 419
+    },
+    "monthly_main": {
+      "Дата": 164
+    },
+    "report_main": {
+      "Категория": 731
+    },
+    "cash_main": {
+      "Дата": 133,
+      "Счёт": 139,
+      "Тип": 127,
+      "№": 56
+    },
+    "calendar_main": {
+      "Тип": 150
+    },
+    "bonds_coupons": {
+      "С налогом": 438
+    },
+    "stocks_div": {
+      "С налогом": 667
+    }
+  },
+  "column_resize_mode": "accordion",
+  "bonds_show_archived": false,
+  "stocks_show_archived": true,
+  "stocks_include_dividends": false,
+  "options_show_archived": true,
+  "futures_show_archived": true,
+  "show_coupon_alerts": true,
+  "coupon_alert_days_ahead": 7,
+  "enable_tooltips": true,
+  "confirm_before_delete": true,
+  "last_import_path": "",
+  "last_export_path": "",
+  "backup_on_startup": true,
+  "backup_keep_count": 10,
+  "accounts": [
+    {
+      "key": "ОСН",
+      "label": "Основной",
+      "iis": false,
+      "style": {
+        "italic": false,
+        "bold": false,
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    {
+      "key": "ИИС",
+      "label": "ИИС",
+      "iis": true,
+      "style": {
+        "italic": true,
+        "bold": false,
+        "text_color": "",
+        "bg_color": ""
+      }
+    }
+  ],
+  "visible_bond_columns": [
+    "num",
+    "ticker",
+    "years_left",
+    "offer",
+    "rating",
+    "coupon_pct",
+    "issue_date",
+    "amortization",
+    "name",
+    "coupon_type",
+    "bond_type",
+    "currency",
+    "coupon_rub",
+    "price_avg",
+    "sum_buy",
+    "reg_number",
+    "share"
+  ],
+  "visible_stock_columns": [
+    "num",
+    "name",
+    "ticker",
+    "price_avg",
+    "price_current",
+    "sum_buy",
+    "share",
+    "sum_current",
+    "delta_rub",
+    "delta_pct",
+    "qty",
+    "total_result",
+    "dividends"
+  ],
+  "bonds_show_extra_button": true,
+  "bonds_extra_coupons": true,
+  "bonds_extra_offers": true,
+  "bonds_extra_amortizations": true
+}
